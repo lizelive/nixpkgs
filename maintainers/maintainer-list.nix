@@ -8721,6 +8721,11 @@
     githubId = 591860;
     name = "Lionello Lunesu";
   };
+  lizelive = {
+    github = "lizelive";
+    githubId = 40217331;
+    name = "LizeLive";
+  };
   lluchs = {
     email = "lukas.werling@gmail.com";
     github = "lluchs";

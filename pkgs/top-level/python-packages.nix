@@ -19,6 +19,8 @@ self: super: with self; {
   aardwolf = callPackage ../development/python-modules/aardwolf { };
 
   absl-py = callPackage ../development/python-modules/absl-py { };
+  
+  accelerate = callPackage ../development/python-modules/accelerate { };
 
   accessible-pygments = callPackage ../development/python-modules/accessible-pygments { };
 
@@ -2448,6 +2450,8 @@ self: super: with self; {
   diff-cover = callPackage ../development/python-modules/diff-cover { };
 
   diff-match-patch = callPackage ../development/python-modules/diff-match-patch { };
+
+  diffusers = callPackage ../development/python-modules/diffusers { };
 
   digital-ocean = callPackage ../development/python-modules/digitalocean { };
 
@@ -10372,6 +10376,8 @@ self: super: with self; {
   safe-pysha3 = callPackage ../development/python-modules/safe-pysha3 { };
 
   safeio = callPackage ../development/python-modules/safeio { };
+
+  safetensors = callPackage ../development/python-modules/safetensors { };
 
   safety = callPackage ../development/python-modules/safety { };
 
