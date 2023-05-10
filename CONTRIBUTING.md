@@ -9,6 +9,15 @@ under the terms of [COPYING](COPYING), which is an MIT-like license.
 * Make sure there is no open issue on the topic
 * [Submit a new issue](https://github.com/NixOS/nixpkgs/issues/new/choose) by choosing the kind of topic and fill out the template
 
+## First Time contributors
+
+You will need to add yourself to [maintainers](https://nixos.org/manual/nixpkgs/unstable/#var-meta-maintainers)
+
+Your pr should have two commits:
+- `maintainers: add lizelive`
+- `starsector: 0.95.1a-RC6 -> 0.96a-RC7`
+
+
 ## Submitting changes
 
 Read the ["Submitting changes"](https://nixos.org/nixpkgs/manual/#chap-submitting-changes) section of the nixpkgs manual. It explains how to write, test, and iterate on your change, and which branch to base your pull request against.
